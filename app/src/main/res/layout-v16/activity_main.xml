@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.scorekeeperapp.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00796B">
+
+    <!-- This code is a GIF wallpaper of game-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/unnamed" />
+
+        <!-- This is a code for tracking score of AllianceA and AllianceB in game-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:weightSum="1">
+
+            <!-- This code is a for Team AllianceA to track score in game-->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="0.5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/team_a"
+                    android:textSize="@dimen/Text_Size" />
+
+                <TextView
+                    android:id="@+id/AllianceA_Score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/text_value"
+                    android:textSize="@dimen/Text_Dimen"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/attack"
+                    style="@style/ButtonTheme"
+                    android:text="@string/button_one"
+                    android:onClick="addMainAttackA"/>
+
+                <Button
+                    android:id="@+id/attack1"
+                    style="@style/ButtonTheme"
+                    android:text="@string/button_two"
+                    android:onClick="addSpecialAttackA"/>
+
+            </LinearLayout>
+
+            <!-- This code is to display margin line between two team in game-->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/view"/>
+
+            <!-- This code is a for Team AllianceB to track score in game-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="0.5">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/team_b"
+                    android:textSize="@dimen/Text_Size" />
+
+                <TextView
+                    android:id="@+id/AllianceB_Score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/text_value"
+                    android:textSize="@dimen/Text_Dimen" />
+
+                <Button
+                    android:id="@+id/attackB"
+                    style="@style/ButtonTheme"
+                    android:text="@string/button_one"
+                    android:onClick="addMainAttackB"
+                    />
+
+                <Button
+                    android:id="@+id/special_attack_b"
+                    style="@style/ButtonTheme"
+                    android:text="@string/button_two"
+                    android:onClick="addSpecialAttackB"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <!-- This code is for Reset button which will the reset the score of game-->
+
+        <Button
+            android:id="@+id/attack3"
+            style="@style/ButtonTheme"
+            android:layout_marginBottom="@dimen/Reset_Button"
+            android:layout_marginTop="@dimen/Reset_Button"
+            android:onClick="resetScore"
+            android:text="@string/Button_ResetScore" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+

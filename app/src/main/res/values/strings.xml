@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">ScoreKeeperApp</string>
+   <!--button-->
+    <string name="button_one">Main-Attack</string>
+    <string name="button_two">Special-Attack</string>
+    <string name="text_value_one">0</string>
+    <string name="team_a">Alliance A</string>
+    <string name="team_b">Alliance B</string>
+    <string name="text_value">0</string>
+    <string name="Button_ResetScore">Reset</string>
+
+</resources>
