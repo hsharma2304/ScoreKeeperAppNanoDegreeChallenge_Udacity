@@ -13,7 +13,7 @@ This app is to track the score gained by both the team who are participating in 
 <img src="app/src/main/res/drawable/screenlayout .jpg" width="250" height="400">
 
 
-**#Layout of the app after changing the Potrait mode to landscape mode.**
+**#Score is preserved after changing orientation (Potrait to Landscape mode)**
 
 
 <img src="app/src/main/res/drawable/afterrotatingscreen.jpg" width="400" height="250">
