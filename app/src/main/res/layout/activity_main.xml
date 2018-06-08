@@ -5,7 +5,7 @@
     tools:context="com.example.android.scorekeeperapp.MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00796B">
+    android:background="@color/background_color">
 
     <!-- This code is a GIF wallpaper of game-->
     <LinearLayout
@@ -16,7 +16,7 @@
 
         <pl.droidsonroids.gif.GifImageView
             android:layout_width="match_parent"
-            android:layout_height="220dp"
+            android:layout_height="@dimen/gif_image_height"
             android:scaleType="fitXY"
             android:src="@drawable/unnamed" />
 
@@ -25,13 +25,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/layout_margintop"
             android:weightSum="1">
 
             <!-- This code is a for Team AllianceA to track score in game-->
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/layout_width"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical"
@@ -42,7 +42,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:text="@string/team_a"
-                    android:textSize="@dimen/Text_Size" tools:targetApi="jelly_bean"/>
+                    android:textSize="@dimen/Text_Size"
+                    tools:targetApi="jelly_bean"/>
 
                 <TextView
                     android:id="@+id/alliance_a_score"
@@ -67,13 +68,13 @@
 
             <!-- This code is to display margin line between two team in game-->
             <View
-                android:layout_width="2dp"
+                android:layout_width="@dimen/layout_width_view"
                 android:layout_height="match_parent"
                 android:background="@color/view"/>
 
             <!-- This code is a for Team AllianceB to track score in game-->
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/layout_width"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical"
@@ -85,7 +86,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:text="@string/team_b"
-                    android:textSize="@dimen/Text_Size" tools:targetApi="jelly_bean"/>
+                    android:textSize="@dimen/Text_Size"
+                    tools:targetApi="jelly_bean"/>
 
                 <TextView
                     android:id="@+id/alliance_b_score"
@@ -93,7 +95,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:text="@string/text_value"
-                    android:textSize="@dimen/Text_Dimen" tools:targetApi="jelly_bean"/>
+                    android:textSize="@dimen/Text_Dimen"
+                    tools:targetApi="jelly_bean"/>
 
                 <Button
                     android:id="@+id/attackB"

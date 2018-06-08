@@ -7,4 +7,8 @@
     <dimen name="Reset_Button">20dp</dimen>
     <dimen name="team_a_margin_right">25dp</dimen>
     <dimen name="team_b_margin_left">25dp</dimen>
+    <dimen name="gif_image_height">220dp</dimen>
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="layout_margintop">10dp</dimen>
+    <dimen name="layout_width_view">2dp</dimen>
 </resources>
