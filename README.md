@@ -13,13 +13,13 @@ This app is to track the score gained by both the team who are participating in 
 <img src="app/src/main/res/drawable/screenlayout .jpg" width="250" height="400">
 
 
-**#Layout of the app after score button pressed**
+**#Layout of the app after changing the Potrait mode to landscape mode.**
 
 
 <img src="app/src/main/res/drawable/afterrotatingscreen.jpg" width="400" height="250">
 
 
-**#Layout of the app after reset the button to change the score to 0**
+**#Layout of the app after reset the button to change the score to initial state**
 
 
 <img src="app/src/main/res/drawable/scorereset.jpg" width="250" height="400">
