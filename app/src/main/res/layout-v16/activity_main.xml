@@ -45,7 +45,7 @@
                     android:textSize="@dimen/Text_Size" />
 
                 <TextView
-                    android:id="@+id/AllianceA_Score"
+                    android:id="@+id/alliance_a_score"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
@@ -90,7 +90,7 @@
                     android:textSize="@dimen/Text_Size" />
 
                 <TextView
-                    android:id="@+id/AllianceB_Score"
+                    android:id="@+id/alliance_b_score"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
