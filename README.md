@@ -10,7 +10,7 @@ This app is to track the score gained by both the team who are participating in 
 **#Layout of the app after score button pressed**
 
 
-<img src="app/src/main/res/drawable/screenlayout .jpg" width="250" height="400">
+<img src="app/src/main/res/drawable/screenlayout.jpg" width="250" height="400">
 
 
 **#Score is preserved after changing orientation (Potrait to Landscape mode)**
