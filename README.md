@@ -1,6 +1,11 @@
 # ScoreKeeperAppNanoDegreeChallenge_Udacity
 This app is to track the score gained by both the team who are participating in the game.
 
+## Development Language Used:
+
+- [x] JAVA
+- [x] XML
+
 ## Image of initial score in Potrait mode
 
 
