@@ -28,3 +28,10 @@ This app is to track the score gained by both the team who are participating in 
 
 
 <img src="app/src/main/res/drawable/scorereset.jpg" width="250" height="400">
+
+
+## Enjoy Coding <img src="https://github.com/imadianand/logo/blob/master/wink.jpg" width="45" height="45">
+
+Contact me for real project [<img src="https://github.com/imadianand/logo/blob/master/linkedin-logo-copy.png" width="30" height="30">](https://www.linkedin.com/in/himani-sharma-5171a311b/)
+
+Tweet me to get connected with Tech World [<img src="https://github.com/imadianand/logo/blob/master/tweeetme.png" width="30" height="30">](https://twitter.com/himanisharma234)
