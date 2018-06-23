@@ -1,4 +1,4 @@
-|home|[![contact me](https://img.shields.io/badge/contact-online-red.svg)](# contact-me ) |description|
+|home|[![contact me](https://img.shields.io/badge/contact-online-red.svg)](#contact-me ) |description|
 |---|---|---|
 
 # ScoreKeeperAppNanoDegreeChallenge_Udacity
@@ -37,7 +37,7 @@ This app is to track the score gained by both the team who are participating in 
 
 ## Enjoy Coding <img src="https://github.com/imadianand/logo/blob/master/wink.jpg" width="45" height="45">
 
-<a ="contact me"></a>
+<a ="contact-me"></a>
 Contact me for real project [<img src="https://github.com/imadianand/logo/blob/master/linkedin-logo-copy.png" width="30" height="30">](https://www.linkedin.com/in/himani-sharma-5171a311b/)
 
 Tweet me to get connected with Tech World [<img src="https://github.com/imadianand/logo/blob/master/tweeetme.png" width="30" height="30">](https://twitter.com/himanisharma234)
