@@ -1,4 +1,4 @@
-|home|![contact me](https://img.shields.io/badge/contact-online-red.svg)(# contact-me ) |description|
+|home|[![contact me](https://img.shields.io/badge/contact-online-red.svg)](# contact-me ) |description|
 |---|---|---|
 
 # ScoreKeeperAppNanoDegreeChallenge_Udacity
